@@ -37,5 +37,36 @@ Follow these steps to run CampusCart locally on your machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Surajchurasiya/CampusCart.git](https://github.com/Surajchurasiya/CampusCart.git)
+git clone [https://github.com/Surajchaurasiya/CampusCart.git](https://github.com/Surajchaurasiya/CampusCart.git)
 cd CampusCart
+
+
+2. Backend Configuration
+<Bash>
+cd server
+npm install
+Create a .env file in the server/ directory:
+
+Code snippet
+PORT=5000
+MONGO_URI=your_mongodb_atlas_connection_string
+JWT_SECRET=your_super_secret_jwt_key
+
+
+Start the backend:
+<Bash>
+npm start
+
+
+3. Frontend Configuration
+<Bash>
+cd ../client
+npm install
+npm start
+
+Deployment Details
+Frontend: Automatically built and deployed by Vercel on every push to the main branch.
+Backend: Hosted on Render's web service tier, directly communicating with MongoDB Atlas for persistent storage.
+
+👥 Author
+Suraj Chaurasiya - GitHub Profile
