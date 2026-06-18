@@ -74,5 +74,5 @@ npm start
 Frontend: Automatically built and deployed by Vercel on every push to the main branch.
 Backend: Hosted on Render's web service tier, directly communicating with MongoDB Atlas for persistent storage.
 
-👥 Author
-Suraj Churasiya - GitHub Profile
+## 👥 Author
+Suraj Churasiya - [GitHub Profile](https://github.com/Surajchurasiya)
