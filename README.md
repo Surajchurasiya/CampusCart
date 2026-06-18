@@ -69,4 +69,4 @@ Frontend: Automatically built and deployed by Vercel on every push to the main b
 Backend: Hosted on Render's web service tier, directly communicating with MongoDB Atlas for persistent storage.
 
 👥 Author
-Suraj Chaurasiya - GitHub Profile
+Suraj Chaurasiya
