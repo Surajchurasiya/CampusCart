@@ -42,37 +42,3 @@ CampusCart/
     ├── routes/
     ├── index.js
     └── package.json
-
-## 🚀 Local Installation & Setup
-Follow these steps to run CampusCart locally on your machine.
-
-### Prerequisites
-*   Node.js installed (v16.x or higher recommended)
-*   A MongoDB Atlas account or local MongoDB instance
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/Surajchurasiya/CampusCart.git](https://github.com/Surajchurasiya/CampusCart.git)
-cd CampusCart
-
-### 2. Backend Configuration
-cd server
-npm install
-
-### 3. Create a .env file in the server/ directory:
-PORT=5000
-MONGO_URI=your_mongodb_atlas_connection_string
-JWT_SECRET=your_super_secret_jwt_key
-npm start
-
-### 4. Frontend Configuration
-cd client
-npm install
-npm start
-
-🌐 Deployment Details
-Frontend: Automatically built and deployed by Vercel on every push to the main branch.
-Backend: Hosted on Render's web service tier, directly communicating with MongoDB Atlas for persistent storage.
-
-## 👥 Author
-Suraj Churasiya - [GitHub Profile](https://github.com/Surajchurasiya)
